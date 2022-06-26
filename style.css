@@ -92,10 +92,22 @@ a {
 }
 
 .lower-content {
+    font-size: 36px;
+    background-color: #c9dbd8;
+    padding: 100px 600px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 24px;
+    flex: 1;
+    flex-direction: column;
 }
+
+.lower-content p {
+    font-size: 24px;
+    margin: 0;
+    text-align: right;
+}
+
 
 .upper-content img {
     width: 150px;
@@ -105,11 +117,19 @@ a {
     border-radius: 25px;
 }
 
+.upper-content .text {
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 2px;
+}
+
 .title, .content-section {
     display: flex;
     flex: 1;
     justify-content: center;
-    gap: 16px;
+    gap: 48px;
+    padding-bottom: 25px;
 }
 
 .footer {
