@@ -9,7 +9,7 @@ body {
 
 .hero img {
     height: 275px;
-    width: 500px;
+    width: 600px;
     object-fit: cover;
 }
 
@@ -18,14 +18,38 @@ body {
     width: 40px;
 }
 
+.hero .text {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.hero button {
+    font-size: 16px;
+    padding: 4px 28px;
+    border-radius: 8px;
+    border-style: outset;
+}
+
+.hero button:hover {
+    font-size: 16px;
+    padding: 4px 28px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #7a405a;
+    transition: .2s;
+    border-style: inset;
+}
+
+
 .header, .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #53886f;
-    padding: 0px 200px;
+    padding: 0px 350px;
     padding-bottom: 60px;
     padding-top: 8px;
+    gap: 24px;
 }
 
 .logo {
@@ -43,7 +67,11 @@ body {
     display: flex;
     align-items: flex-start;
     text-align: left;
-    text-size
+    font-size: 28px;
+}
+
+.hero-left h1 {
+    margin: 5px;
 }
 
 .hero-img {
